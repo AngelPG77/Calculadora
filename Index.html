@@ -6,6 +6,9 @@
     <title>Calculadora</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="particulas.js"></script>
 </head>
 <body>
     <!-- Div para el fondo de partículas -->
@@ -19,7 +22,8 @@
                 <div id="valor_actual"></div>
             </div>   
              <!-- Declaración de lo botones de la calculadora -->   
-            <button class="col-3" type="button" onclick="pantalla.limpiarPantalla()" name="limpiar" id="limpiar" >C</button>
+            <button class="col-2" type="button" name="limpiar" id="limpiar" >C</button>
+            <button type="button" name="ordenar" id="ordenar" >S</button>
             <button class="operador" value="dividir" type="button" name="division" id="division" >/</button>
             <button class="tipoNum" type="button" name="numero7" id="num7" >7</button>
             <button class="tipoNum" type="button" name="numero8" id="num8" >8</button>
@@ -33,14 +37,13 @@
             <button class="tipoNum" type="button" name="numero2" id="num2" >2</button>
             <button class="tipoNum" type="button" name="numero3" id="num3" >3</button>
             <button class="operador" value="restar" type="button" name="resta" id="resta" >-</button>
-            <button class="tipoNum col-2" type="button" name="numero0" id="num0" >0</button>
+            <button class="tipoNum" type="button" name="numero0" id="num0" >0</button>
             <button class="tipoNum" type="button" name="punto" id="punto" >.</button>
+            <button type="button" name="ordenarResultado" id="resOrdenado" >S=</button>
             <button class="operador" value="igual" type="button" name="igual" id="igual" >=</button>
 
         </div>
     </div>
-    <script src="Script.js"></script>
-    <script src="particles.min.js"></script>
-    <script src="particulas.js"></script>
+    
 </body>
 </html>

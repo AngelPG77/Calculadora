@@ -1,3 +1,4 @@
+addEventListener("DOMContentLoaded", () => {
 particlesJS(
     {
   "particles": {
@@ -110,3 +111,4 @@ particlesJS(
   "retina_detect": true
 }
 );
+});

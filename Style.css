@@ -69,10 +69,6 @@ button:active {
     box-shadow: 0px 0px 0px 6px #00000020; 
 }
 
-.col-3 {
-    grid-column: span 3;
-    width: 90%;
-}
 
 .col-2 {
     grid-column: span 2;
