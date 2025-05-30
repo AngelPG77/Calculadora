@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Div para el fondo de partículas -->
+    <div id="particles-js"></div>
+    <!-- Contenedor principal -->
+    <div class="contenedor">
+        <div class="calculadora">
+            <!-- Pantalla de la calculadora -->
+            <div class="pantalla">
+                <div id="valor_anterior"></div>
+                <div id="valor_actual"></div>
+            </div>   
+             <!-- Declaración de lo botones de la calculadora -->   
+            <button class="col-3" type="button" onclick="pantalla.limpiarPantalla()" name="limpiar" id="limpiar" >C</button>
+            <button class="operador" value="dividir" type="button" name="division" id="division" >/</button>
+            <button class="tipoNum" type="button" name="numero7" id="num7" >7</button>
+            <button class="tipoNum" type="button" name="numero8" id="num8" >8</button>
+            <button class="tipoNum" type="button" name="numero9" id="num9" >9</button>
+            <button class="operador" value="multiplicar" type="button" name="multiplicacion" id="multiplicacion" >*</button>
+            <button class="tipoNum" type="button" name="numero4" id="num4" >4</button>
+            <button class="tipoNum" type="button" name="numero5" id="num5" >5</button>
+            <button class="tipoNum" type="button" name="numero6" id="num6" >6</button>
+            <button class="operador" value="sumar" type="button" name="suma" id="suma" >+</button>
+            <button class="tipoNum" type="button" name="numero1" id="num1" >1</button>
+            <button class="tipoNum" type="button" name="numero2" id="num2" >2</button>
+            <button class="tipoNum" type="button" name="numero3" id="num3" >3</button>
+            <button class="operador" value="restar" type="button" name="resta" id="resta" >-</button>
+            <button class="tipoNum col-2" type="button" name="numero0" id="num0" >0</button>
+            <button class="tipoNum" type="button" name="punto" id="punto" >.</button>
+            <button class="operador" value="igual" type="button" name="igual" id="igual" >=</button>
+
+        </div>
+    </div>
+    <script src="Script.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="particulas.js"></script>
+</body>
+</html>
